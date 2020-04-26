@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif !important;
+    width: 100%;
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed
+}
+
+html, body {
+    height: 100%;
+}
+
+#app {
+    /*margin-top: 20%;*/
+}
+
+.content {
+}
+textarea {
+    resize: none !important;
+    border:none;
+}

@@ -1,0 +1,17 @@
+create table questions (
+	id int not null primary key,
+	name char(50),
+	answer char(255),
+	classname char(255),
+	author char(40)
+)
+
+create table admin (
+	id int not null primary key,
+	username char(50),
+	password char(50)
+)
+
+INSERT INTO questions(id, username, password, classname, author) VALUES(1,'root', 'a23115dd8ddecb86a96876e361e9b181')
+INSERT INTO questions(id, username, password, classname, author) VALUES(2,'caiyonglan', 'a23115dd8ddecb86a96876e361e9b181')
+INSERT INTO questions(id, username, password, classname, author) VALUES(3,'root', '3bce0a868ab2fd7d13241a087e515ed0')
